@@ -1,0 +1,1 @@
+﻿UPDATE REFERRAL set DATE_CREATION = %1$s where JOB_ORDER_ID = %2$s

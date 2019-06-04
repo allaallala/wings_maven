@@ -1,0 +1,1 @@
+﻿SELECT e.EMPLOYER_NAME FROM JOB_ORDER as j INNER JOIN EMPLOYER as e on e.ID = j.EMPLOYER_ID where j.ID in (%1$s, %2$s, %3$s, %4$s, %5$s, %6$s, %7$s, %8$s, %9$s, %10$s) ORDER BY e.EMPLOYER_NAME %11$s

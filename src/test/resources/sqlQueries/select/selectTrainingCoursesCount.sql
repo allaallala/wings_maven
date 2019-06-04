@@ -1,0 +1,1 @@
+﻿SELECT COUNT(*) FROM COURSE c where DELETED != 1

@@ -1,0 +1,1 @@
+﻿SELECT first_name,last_name FROM STAFF WHERE user_id=(SELECT ID FROM APPLICATION_USER WHERE USERNAME = '%1$s')

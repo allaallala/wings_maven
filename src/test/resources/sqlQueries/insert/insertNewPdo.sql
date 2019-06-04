@@ -1,0 +1,1 @@
+﻿INSERT INTO PROFESSIONAL_DEVELOPMENT_OPPORTUNITY VALUES(ID, 9158, 11598, '%1$s', 119041, 'Great opportunity for everybody', '%2$s', '%2$s', '%3$s', 'Anwser all the questions', 'BACHELORS_DEGREE', 0, 'Disclaimer', 0, null)

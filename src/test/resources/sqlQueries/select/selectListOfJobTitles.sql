@@ -1,0 +1,1 @@
+﻿SELECT JOB_TITLE FROM JOB_ORDER where ID in (%1$s, %2$s, %3$s, %4$s, %5$s, %6$s, %7$s, %8$s, %9$s, %10$s) ORDER BY JOB_TITLE %11$s

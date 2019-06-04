@@ -1,0 +1,1 @@
+﻿SELECT ID from SERVICE_ENROLLMENT where EMPLOYER_ID = '%1$s'

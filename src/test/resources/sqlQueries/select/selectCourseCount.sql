@@ -1,0 +1,1 @@
+﻿SELECT COUNT(*) from COURSE where IS_DISABLED=%1$d and DELETED=0

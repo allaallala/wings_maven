@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="High priority tests" parallel="classes" thread-count="10">
+    <test name="Xray precondition">
+        <classes>
+            <class name="edu.msstate.nsparc.wings.integration.xray.PreconditionCreator"/>
+        </classes>
+    </test>
+    <test name="High priority">
+        <classes>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_01_01_Employer_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.trainingCourses.TC_24_05_Training_Courses_Roles_Admin_TA"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_11_02_Relocation_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.careerReadinessCertification.TC_20_11_CRC_Reset_Exit_Period_date"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_10_29_Contact_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_26_01_Program_Outcomes_Roles_Admin_AD_Manager_Staff_IS_TA"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_03_01_Edit_Profile"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_04_08_Manage_Job_Opening_Edit_Found_Job_Order"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_03_08_Youth_Goals_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.TC_01_01_Participant_Create_Veteran"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_34_09_EP_Documents_Upload_Pdf_Word_Rtf"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.callIn.TC_07_01_Create_Call_In"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_04_08_01_Manage_JO_Search_Status"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_07_53_Referrals_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.jobVites.TC_36_10_Job_Vites_list_Opening"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_02_13_Youth_Assessment_Create_Pre_Test"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_16_EP_Preferences_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_06_04_ATAA_RTAA_Enrollment_Wages_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_06_EP_Identification_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.ataaRtaaEnrollments.TC_15_05_ATAA_RTAA_Mark_Unmark_Qualifying_Reemployment"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_04_09_Manage_Job_Openings_Clone_Job_Order"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_10_01_Job_Order_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_07_09_Training_Provider_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_05_10_Program_Outcomes_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.accountCreation.TC_36_01_Account_General_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_05_01_Trade_Enrollment_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.TC_04_05_Job_Search_Applying"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.allParticipantNotes.TC_23_01_All_Participant_Notes_Add_A_Note"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_06_10_Courses_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_07_01_Trade_Training_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_09_01_Expenditure_Encumbrances_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_08_01_Training_Waiver_Issued_Revoked_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_13_EP_Contact_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_04_EP_Eligibility_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_10_01_Assessment_Trade_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.wageSubsidies.TC_23_17_Wage_Subsidies_Submit_Payment"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_11_EP_Accomplishments_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_02_01_Individual_Employment_Plan_Create_And_View"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_12_61_Activity_Manager_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_06_01_ATAA_RTAA_Enrollment_50000_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_18_EP_Military_AddRemove_New_Record"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_08_EP_Classification_Edit_All_Data"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_04_10_WIA_Training_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_05_11_Participant_Create_and_View"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_01_01_Rapid_Response_Events_Create_And_View"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.employer.TC_04_01_Manage_Job_Openings_Create_And_Approve"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_24_EP_Education_Edit_Record"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_34_05_EP_Employment_Edit"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.TC_08_02_Employer_Create"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_04_01_Petitions_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.staff.TC_38_15_Referral_Resulting_RD_Less_CD"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.participant.editProfile.TC_31_19_EP_Military_Edit"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_11_01_Job_Search_Full_Workflow"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.WIA.TC_04_01_WIA_Training_Search"/>
+            <class name="edu.msstate.nsparc.wings.integration.tests.trade.TC_10_70_Career_Readiness_Certification_Full_Workflow"/>
+        </classes>
+    </test>
+</suite>

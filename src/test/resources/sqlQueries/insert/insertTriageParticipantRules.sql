@@ -1,0 +1,1 @@
+﻿INSERT INTO TRIAGE_PARTICIPANT_RULE (TRIAGE_RULE_ID, PARTICIPANT_ID, RUN_RULE, SHOW_RULE, DATE_SUSPENDED) VALUES (2, %1$s, 0, 0, null), (3, %1$s, 0, 0, null), (9, %1$s, 0, 0, null), (6, %1$s, 0, 1, null), (5, %1$s, 0, 0, null), (7, %1$s, 0, 0, null), (8, %1$s, 0, 0, null), (10, %1$s, 0, 1, null)
